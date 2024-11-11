@@ -1,0 +1,19 @@
+-*-Model View Controller:-
+
+
+Models: Writes business logic, databse communication
+View: UI
+Controller: Handles user interaction and select a view to render, communicate Model and View.
+
+-*-File structure:-
+
+
+-composer.json:- details all the dependencies and libraries in the projects.
+-Vendor folder:- This is where all the dependencies are stored.
+-app folder:- Core code of the application. Model, Controller and providers are stored here.
+-route folder:- Contains web.php file which controls all the routing of the app 
+-resorces folder:- contains js and css files. Also contains views of the application in the views folder.
+-public folder:- contains index.php which is the starting point of application. 
+-composer.lock:-
+
+-*-

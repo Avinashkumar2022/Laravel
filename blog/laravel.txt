@@ -1,7 +1,7 @@
 -*-Model View Controller:-
 
 
-Models: Writes business logic, databse communication
+Models: Writes business logic, database communication
 View: UI
 Controller: Handles user interaction and select a view to render, communicate Model and View.
 
@@ -16,4 +16,15 @@ Controller: Handles user interaction and select a view to render, communicate Mo
 -public folder:- contains index.php which is the starting point of application. 
 -composer.lock:-
 
--*-
+-*-Controllers:-
+-It comes under MVC architecture.
+-The controller handles requests from user
+-Handles view
+-Handles database
+-We can say that the controller is a central unit that handles user request, model and views.
+
+User requests to controller -> Controller decides what to do with the request -> controller request data from model -> Model responds with appropriate data to the controller -> Controller send the data to the view -> View send the data to the user
+
+Controllers are stored in Http/Controllers folder
+CMD to make a controller:-   php artisan make:controller UserController
+
